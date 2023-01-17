@@ -27,13 +27,13 @@ body {
 }
 .titulo {
   color: white;
-  margin: 20px;
+
   font-size: 35px;
 }
 .about-us {
   color: white;
-  margin: 30px;
-  font-size: 25px;
+  font-size: 18px;
+  margin: 10px;
 }
 /* trabajos */
 
@@ -65,16 +65,22 @@ body {
 
 @media (min-width: 1024px) {
   /* navbar */
+  .nav-link {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
   .nav-link:hover {
     color: cornflowerblue;
   }
   /* about */
+  .about {
+    height: 50vh;
+  }
   .titulo {
     font-size: 3rem;
   }
   .about-us {
     font-size: 1.5rem;
-    margin: 30px;
   }
   /* contacto */
 }
