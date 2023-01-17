@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: bisque;
+}
 /* navbar */
 
 .logo-pagina {
@@ -26,20 +28,19 @@
 .titulo {
   color: white;
   margin: 20px;
+  font-size: 35px;
 }
 .about-us {
   color: white;
   margin: 30px;
+  font-size: 25px;
 }
 /* trabajos */
 
 /* contactanos */
 
 /* footer */
-.footer {
-  background-color: bisque;
-  margin-top: 8rem;
-}
+
 /* Icono de Whatsapp */
 .icono-wsp {
   width: 40px;
@@ -76,7 +77,4 @@
     margin: 30px;
   }
   /* contacto */
-  #contacto {
-    background-color: black;
-  }
 }
