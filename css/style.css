@@ -30,6 +30,11 @@ body {
   margin: 20px;
   font-size: 35px;
 }
+.titulo_dos {
+  margin: 20px;
+  font-size: 35px;
+  color: black;
+}
 .about-us {
   color: white;
   font-size: 18px;
@@ -86,4 +91,7 @@ body {
     font-size: 1.5rem;
   }
   /* contacto */
+  .titulo_dos {
+    font-size: 3rem;
+  }
 }
