@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(149, 223, 81);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(5, 7, 12, 0.75));
+  color: whitesmoke;
+  position: relative;
+  padding-bottom: 80px;
 }
 /* navbar */
 
@@ -28,20 +29,20 @@ body {
 }
 .titulo {
   color: white;
-  margin: 20px;
+  margin-bottom: 15px;
   font-size: 35px;
 }
 
 .about-us {
   color: white;
   font-size: 18px;
-  margin: 15px;
+  padding-bottom: 20px;
 }
 /* trabajos */
 .titulo_dos {
   margin: 20px;
   font-size: 35px;
-  color: rgb(255, 250, 250);
+  color: black;
 }
 /* contactanos */
 .icono-redes {
@@ -51,12 +52,17 @@ body {
 .info-contacto {
   margin: 25px;
   font-size: 18px;
-  color: white;
+  color: black;
 }
-
+.footer {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 /* footer */
 .texto-footer {
-  color: white;
+  color: black;
 }
 /* Icono de Whatsapp */
 .icono-wsp {
