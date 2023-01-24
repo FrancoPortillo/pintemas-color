@@ -57,6 +57,33 @@ body {
   color: black;
   margin-bottom: 3pc;
 }
+
+/* caja contacto */
+.contenedor_form .form .form-header .form-title {
+  font-weight: normal;
+}
+
+.contenedor_form .form {
+  background: rgba(66, 219, 176);
+  max-width: 1150px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+
+.contenedor_form .form .form-label {
+  display: grid;
+  font-size: 16px;
+}
+textarea {
+  width: 200px;
+  height: 150px;
+}
+input {
+  width: 250px;
+}
 .footer {
   background: rgb(34, 193, 195);
   background: linear-gradient(
@@ -111,7 +138,7 @@ body {
   }
   .about-us {
     font-size: 25px;
-    margin: 15px;
+    margin: 40px;
   }
   /* contacto */
   .titulo_dos {
@@ -119,5 +146,12 @@ body {
   }
   .info-contacto {
     font-size: 25px;
+  }
+  .contenedor_form .form {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  textarea {
+    width: 400px;
+    height: 200px;
   }
 }
